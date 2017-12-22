@@ -1,5 +1,5 @@
-import './waves.css'
-import Waves from './waves.js'
+require('./waves.css')
+var Waves = require('./waves.js')
 
 module.exports = {
     install(Vue, options = { name: 'waves' }) {
